@@ -1,0 +1,196 @@
+li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+
+.candar-header-logo {
+    max-width: 154px;
+}
+
+.form-control {
+    max-height: 30px;
+}
+
+.navbar {
+    padding: 0;
+    background-color: #e3000f;
+}
+
+.form-control {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.input-group-append {
+    max-height: 30px;
+}
+
+.line-info {
+    padding-bottom: 20px;
+    padding-top: 25px;
+    background-color: #212121;
+    
+}
+
+ul.navbar-top-menu>  li > .nav-link{
+    position: relative;
+    transition: all 0.2s;
+}
+
+ul.navbar-top-menu >  .nav-item > .nav-link:after{
+    position: relative;
+    width: 0px;
+    height: 3px;
+    background-color: #fff;
+    content: "";
+    bottom: 0;
+    left: 0;
+    display: block;
+    transition: all 0.2s;
+}
+
+
+.card-text {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 18px !important;
+}
+
+.line-info > h4 {
+    position: relative;
+}
+
+.line-info > h4:after {
+    position: absolute;
+    width: 40%;
+    height: 3px;
+    background-color: #fff;
+    content: "";
+    bottom: 0;
+    left: 30%;
+    display: block;
+    transition: all 0.2s;
+    margin-bottom: -11px;
+    border-radius: 5px;
+}
+
+.line-info1 > h4 {
+    position: relative;
+}
+
+.line-info1 {
+    text-align: center; 
+    color: red;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Gotham Narrow Bold';
+    font-style:  'book';
+    font-weight: normal;
+    font-size: 26px;
+    src: local('Gotham Narrow Bold Italic'), url('GothamNarrow-BoldItalic.woff') format('woff');
+}
+
+.line-info1 > h4:after {
+    position: absolute;
+    width: 62%;
+    height: 3px;
+    background-color: red;
+    content: "";
+    bottom: 0;
+    left: 24px;
+    display: block;
+    transition: all 0.2s;
+    margin-bottom: -11px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Gotham Narrow Bold Italic';
+    font-style:  normal;
+    font-weight: normal;
+    font-size: 26px;
+    src: local('Gotham Narrow Bold Italic'), url('GothamNarrow-BoldItalic.woff') format('woff');
+}
+
+.card {
+    width: 50%;
+}
+
+.card-img {
+    min-height: 197px;
+    border: 1px solid #00000045;
+    width: 100%;
+    min-width: 255px;
+    text-align: center;
+    padding: 42px 0px;
+}
+
+.card-columns {
+    column-count: 2;
+}
+
+.card-columns .card {
+    display: flex;
+}
+
+.product-item {
+    margin-right: 110px;
+}
+
+
+.product-item-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ul.navbar-top-menu >  .nav-item > .nav-link:hover:after{
+   width: 100%;
+}
+
+.form-group {
+    margin-top: 35px;
+    margin-bottom: 0px;
+    margin-left: 34px;
+    margin-right: 36px;
+}
+
+.little-form > .form-control {
+    height: 55px;
+    
+}
+
+.form-group > .form-control {
+    max-height: 300px;
+    border-radius: 10px;
+    margin: 11px;
+    max-height: 60px;
+}
+
+.keywords p {
+    margin: 0;
+    
+}
+
+.button {
+    text-align: center;
+}
+
+
+.about-us {
+    background-color: #c5c5c5;
+    height: 500px;
+}
+
+
+
+.jumbotron {
+            background-image: url(img/header-banner.png);
+            background-size: contain;
+            width: 1400px;
+            height: 400px;
+}
