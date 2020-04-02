@@ -4,6 +4,17 @@ li a {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.te-logo {
+    position: absolute;
+    margin-left: 316px;
+    margin-top: -39px;
+    width: 20%;
+}
 
 .candar-header-logo {
     max-width: 154px;
@@ -186,6 +197,28 @@ ul.navbar-top-menu >  .nav-item > .nav-link:hover:after{
     height: 500px;
 }
 
+.candar-footer {
+    min-height: 250px;
+    max-height: 250px;
+    background-color: #e3000f;
+    
+}
+.candar-footer-logo > a >img {
+    width: 85px;
+    height: 22px;
+}
+
+.footer-col {
+    margin-top: 60px;
+    font-size: 11px;
+    
+}
+
+.buttons {
+    color: #e3000f;
+    background-color: white;
+    border-color: #28a745;
+}
 
 
 .jumbotron {
